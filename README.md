@@ -24,15 +24,18 @@ This project is designed as a clean Kotlin backend boilerplate for secure, scala
 📄 Configurable using application.conf
 
 🏗 Tech Stack
-Layer	Technology
-Backend Framework	Ktor 3.3
-Language	Kotlin (JVM 21)
-Auth	JWT
-DI	Koin
-Database	PostgreSQL
-ORM	Exposed
-Connection Pool	HikariCP
-Packaging	Shadow JAR
+| Layer             | Technology      |
+| ----------------- | --------------- |
+| Backend Framework | Ktor 3.3        |
+| Language          | Kotlin (JVM 21) |
+| Auth              | JWT             |
+| DI                | Koin            |
+| Database          | PostgreSQL      |
+| ORM               | Exposed         |
+| Connection Pool   | HikariCP        |
+| Packaging         | Shadow JAR      |
+
+
 📁 Project Structure
 aurora-notes/
 ├── src/main/kotlin/com/aurora/notes
@@ -50,6 +53,7 @@ aurora-notes/
 └── README.md
 
 ▶️ Running Locally
+
 1️⃣ Install dependencies
 ./gradlew clean build --refresh-dependencies
 
