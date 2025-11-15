@@ -56,13 +56,17 @@ Server runs at:
 http://localhost:8080
 
 🔐 Authentication Endpoints
+
 POST /api/auth/register
 {
 "email": "test@example.com",
 "password": "secret"
 }
 
+
+
 POST /api/auth/login
+
 
 Response:
 
@@ -76,29 +80,39 @@ Use JWT in headers:
 Authorization: Bearer <token>
 
 📝 Notes API (Requires JWT)
+
 GET /api/notes
+
 
 Fetch all notes for user.
 
+
 POST /api/notes
+
 {
 "title": "My Note",
 "content": "Hello world!"
 }
 
 PUT /api/notes/{id}
+
 {
 "title": "Updated",
 "content": "Updated content"
 }
 
 DELETE /api/notes/{id}
+
 ❤️ Health Check
+
 GET /api/health
 
 🚀 Deployment Guide
+
 Deploy to Linux server
+
 scp build/libs/aurora-notes-all.jar ubuntu@server:/app/
+
 ssh ubuntu@server "java -jar /app/aurora-notes-all.jar"
 
 
