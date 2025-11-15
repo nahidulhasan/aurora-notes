@@ -36,26 +36,6 @@ This project is designed as a clean Kotlin backend boilerplate for secure, scala
 | Packaging         | Shadow JAR      |
 
 
-📁 Project Structure
-
-aurora-notes/
-├── src/main/kotlin/com/aurora/notes
-│   ├── Application.kt          # Main application entry
-│   ├── config/                  # App + DB config loaders
-│   ├── di/                      # Koin modules
-│   ├── routes/                  # Routing for API endpoints
-│   ├── repository/              # Database setup + DAOs
-│   ├── models/                  # DTO + DB Models
-│   ├── security/                # JWT provider
-│   └── services/                # Business logic
-├── src/main/resources
-│   └── application.conf         # Environment configuration
-├── build.gradle.kts             # Gradle configuration
-└── README.md
-
-
-
-
 ▶️ Running Locally
 
 1️⃣ Install dependencies
