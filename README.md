@@ -37,6 +37,7 @@ This project is designed as a clean Kotlin backend boilerplate for secure, scala
 
 
 📁 Project Structure
+
 aurora-notes/
 ├── src/main/kotlin/com/aurora/notes
 │   ├── Application.kt          # Main application entry
@@ -51,6 +52,9 @@ aurora-notes/
 │   └── application.conf         # Environment configuration
 ├── build.gradle.kts             # Gradle configuration
 └── README.md
+
+
+
 
 ▶️ Running Locally
 
